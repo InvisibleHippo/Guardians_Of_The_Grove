@@ -36,8 +36,10 @@ body {
 #logo {
     width: 200px;
     margin-top: 6px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
     height: 64px;
+    display: block;
     webkit-animation:fadeIn ease-in 1;
 	moz-animation:fadeIn ease-in 1;
 	animation:fadeIn ease-in 1;
@@ -95,15 +97,14 @@ ul.nav a {
 	font-family: font-family: 'Oxygen', sans-serif;
 	font-style: bold;
 	border: solid;
-	position: relative;
+	margin: 0 auto;
 	color: white;
 	border-color: #E91660;
 	background-color: #E91660;
-	top: 25px;
-	left: 40%;
 	border-radius: 50px;
 	font-size: 35px;
     padding: 5px 70px 5px 70px;
+    display: block;
      webkit-animation:fadeIn ease-in 1;
 	moz-animation:fadeIn ease-in 1;
 	animation:fadeIn ease-in 1;
