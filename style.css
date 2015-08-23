@@ -1,3 +1,12 @@
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+body {
+	width: 100%
+}
+
 .content {
 
 }
@@ -6,6 +15,7 @@
 	width: 100%;
 	height: 75px;
 	background-color: #191919;
+	position: ;
 }
 
 #Index {
@@ -18,4 +28,83 @@
     margin-top: 6px;
     margin-left: 100px;
     height: 64px;
+    webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(ADD HERE) no-repeat;
+background-size: 100% 600px;
+}
+
+#Indextext {
+	font-family: 'Oxygen', sans-serif;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 280px;
+	 webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.donatebutton1 {
+	font-family: font-family: 'Oxygen', sans-serif;
+	font-style: ;
+	border: solid;
+	position: relative;
+	color: white;
+	border-color: #E91660;
+	background-color: #E91660;
+	top: 25px;
+	left: 40%;
+	border-radius: 50px;
+	font-size: 35px;
+	padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+     webkit-animation:fadeIn ease-in 1;
+	moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	webkit-animation-fill-mode:forwards;  
+	moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	webkit-animation-duration:1s;
+	moz-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.donatebutton1:hover {
+	background-color: #ee4c85;
+	border-color: #ee4c85;
 }
