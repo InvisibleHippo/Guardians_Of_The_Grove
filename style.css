@@ -75,6 +75,40 @@ background-size: 100% 600px;
 	animation-duration:1s;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#Indextext1{
+font-family: 'Oxygen', sans-serif;
+	color: white;
+	font-size: 60px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#Indextext2{
+font-family: 'Oxygen', sans-serif;
+	color:white;
+	font-size: 30px;
+	text-align:center;
+
+   
+    
+    #indextext3{
+    text-align:center; 
+    }
+
+ul.nav a {
+	padding-top:30px;
+	padding-bottom:20px;
+	font-size: 120%;
+}
+
+=======
+>>>>>>> origin/master
+>>>>>>> parent of f6fd76d... let me see if this works
 .donatebutton1 {
 	font-family: font-family: 'Oxygen', sans-serif;
 	font-style: bold;
