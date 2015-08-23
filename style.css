@@ -85,6 +85,12 @@ background-size: 100% 600px;
 	animation-duration:1s;
 }
 
+ul.nav a {
+	padding-top:30px;
+	padding-bottom:20px;
+	font-size: 120%;
+}
+
 .donatebutton1 {
 	font-family: font-family: 'Oxygen', sans-serif;
 	font-style: bold;
