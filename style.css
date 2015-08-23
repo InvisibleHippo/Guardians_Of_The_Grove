@@ -2,14 +2,32 @@
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
+p {
+	text-align: center;
+	font-size: 350%;
+	/* For temporary lols */
+}
 
 body {
 	width: 100%;
 }
+
+ul.nav a {
+
+	background-color: black;
+	color: #57B2D9;
+	padding-top:25px;
+	padding-bottom:30px;
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	font-style: bold;
+}
+
 .audioplayer {
 	position: relative;
 	float: right;
 }
+
 .wrapper {
 
 }
@@ -54,18 +72,18 @@ body {
 }
 
 video#bgvid {
-position: fixed;
-top: 50%;
-left: 50%;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: auto;
-z-index: -100;
- -webkit-transform: translateX(-50%) translateY(-50%);
-transform: translateX(-50%) translateY(-50%);
-background: url(ADD HERE) no-repeat;
-background-size: 100% 600px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	 -webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(ADD HERE) no-repeat;
+	background-size: 100% 600px;
 }
 
 #Indextext {
@@ -87,14 +105,8 @@ background-size: 100% 600px;
 	animation-duration:1s;
 }
 
-ul.nav a {
-	padding-top:30px;
-	padding-bottom:20px;
-	font-size: 120%;
-}
-
 .donatebutton1 {
-	font-family: font-family: 'Oxygen', sans-serif;
+	font-family:'Oxygen', sans-serif;
 	font-style: bold;
 	border: solid;
 	margin: 0 auto;
