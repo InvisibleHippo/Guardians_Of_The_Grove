@@ -6,7 +6,10 @@
 body {
 	width: 100%
 }
-
+.audioplayer {
+	position: relative;
+	float: right;
+}
 .wrapper {
 
 }
