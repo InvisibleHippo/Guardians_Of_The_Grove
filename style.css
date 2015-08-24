@@ -5,6 +5,7 @@
 p {
 	text-align: center;
 	font-size: 350%;
+	font-style: bold;
 	/* For temporary lols */
 }
 
@@ -134,3 +135,7 @@ video#bgvid {
 	background-color: #ee4c85;
 	border-color: #ee4c85;
 }
+
+
+
+
