@@ -28,6 +28,19 @@ ul.nav a {
 	float: right;
 }
 
+#welcome {
+	font-family: 'moonglow',moonglow;
+	 color:white; 
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 47px;
+    display: block;
+}
+
+
+
 .wrapper {
 
 }
