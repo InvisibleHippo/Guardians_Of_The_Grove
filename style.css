@@ -5,7 +5,6 @@
 p {
 	text-align: center;
 	font-size: 350%;
-	font-style: bold;
 	/* For temporary lols */
 }
 
@@ -46,15 +45,9 @@ ul.nav a {
 	color:white;
 }
 
-#baby{
-
+#set{
 	float:center;
-    font-size:30px
-    margin-top: 6px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: "Copperplate Gothic Light", sans-serif;
+	color: white;
 }
 
 .wrapper {
@@ -144,7 +137,7 @@ video#bgvid {
 	background-color: #E91660;
 	border-radius: 50px;
 	font-size: 35px;
-    padding: 5px 65px 5px 70px;
+    padding: 5px 70px 5px 70px;
     display: block;
      webkit-animation:fadeIn ease-in 1;
 	moz-animation:fadeIn ease-in 1;
@@ -163,7 +156,3 @@ video#bgvid {
 	background-color: #ee4c85;
 	border-color: #ee4c85;
 }
-
-
-
-
